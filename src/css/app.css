@@ -1,0 +1,84 @@
+body {
+    background-color: #ececfc;
+    padding-bottom: 20px;
+}
+
+.jumbotron {
+    background-color: inherit;
+    margin-bottom: 0px;
+}
+
+.jumbotron h1, .jumbotron p {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.jumbotron a {
+    margin-top: 35px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.congrats {
+    font-size: large;
+    border: 2px solid #cdcddd;
+    padding: 30px;
+}
+
+.announce {
+    background-color: #fff8f8;
+    border-top: 1px solid #bbb;
+    border-left: 1px solid #bbb;
+    border-right: 1px solid #bbb;
+}
+
+.announce hr {
+    border-top: 1px solid #663333;
+}
+
+.announce h2 {
+    text-align: center;
+}
+
+.announce h3 {
+    color: #663333;
+}
+
+.announce p {
+    font-size: medium;
+    line-height: 1.2em;
+    margin: 20px 10px;
+}
+
+.sidebar {
+    background-color: #f5ebeb;
+    border: 1px solid #bbb;
+}
+
+.sidebar h3 {
+    text-align: center;
+}
+
+.award {
+    color: #bb0000;
+    text-align: center;
+}
+
+.remember-this {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.brand {
+    height: 60px;
+    width: 95px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.save-for-later {
+    display: none;
+}
