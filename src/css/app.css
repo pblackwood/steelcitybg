@@ -82,3 +82,19 @@ body {
 .save-for-later {
     display: none;
 }
+
+.schedule, .stats {
+    margin-top: 50px;
+}
+
+.stats h2, .stats h3 {
+    text-align: center;
+}
+
+.footer {
+    margin-top: 100px;
+}
+
+.footer hr {
+    border-top: 1px solid #ccc;
+}
