@@ -27,6 +27,10 @@
     width: 75px;
 }
 
+.header .stats-year {
+    text-align: right;
+}
+
 .winner {
     font-weight: bold;
     color: #884444;
@@ -43,5 +47,12 @@
 @media (min-width: 500px) {
     .playerTable {
         margin-left: 150px;
+    }
+}
+
+/* Center horizontally, only on small devices */
+@media (max-width: 800px) {
+    .header .stats-year, .header .stats-quarter {
+        text-align: center;
     }
 }
