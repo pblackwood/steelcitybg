@@ -19,14 +19,6 @@
     margin-left: 10px;
 }
 
-.header select#quarter {
-    width: 50px;
-}
-
-.header select#year {
-    width: 75px;
-}
-
 .header .stats-year {
     text-align: right;
 }
@@ -56,3 +48,4 @@
         text-align: center;
     }
 }
+
