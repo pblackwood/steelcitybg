@@ -81,6 +81,13 @@ hr {
     font-weight: bold;
 }
 
+.alert {
+    color: red;
+    font-size: larger;
+    font-style: italic;
+    font-weight: bold;
+}
+
 .brand {
     height: 60px;
     width: 95px;
