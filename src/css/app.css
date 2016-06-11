@@ -7,6 +7,11 @@ hr {
     border-top: 1px solid #ccc;
 }
 
+.row {
+    font-size: medium;
+    background-color: #f8f8f8;
+}
+
 .brand-icon {
     position: absolute;
     top: 3px;
@@ -15,7 +20,7 @@ hr {
 
 .brand-name {
     display: inline;
-    color: #ddd;
+    color: #f8f8f8;
     font-weight: normal;
     position: relative;
     top: 10px;
@@ -47,7 +52,6 @@ hr {
 }
 
 .announce {
-    background-color: #fff8f8;
     border-top: 1px solid #bbb;
     border-left: 1px solid #bbb;
     border-right: 1px solid #bbb;
