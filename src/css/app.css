@@ -13,6 +13,15 @@ hr {
     height: 45px;
 }
 
+.brand-name {
+    display: inline;
+    color: #ddd;
+    font-weight: normal;
+    position: relative;
+    top: 10px;
+    left: 70px;
+}
+
 .jumbotron {
     background-color: inherit;
     margin-bottom: 0px;
@@ -96,11 +105,16 @@ hr {
     vertical-align: middle;
 }
 
+a.menu-selected {
+    /*font-weight: bold;*/
+    color: red;
+}
+
 .save-for-later {
     display: none;
 }
 
-.schedule, .stats {
+.schedule, .stats, .about {
     margin-top: 50px;
 }
 
