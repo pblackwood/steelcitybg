@@ -34,6 +34,14 @@ hr {
     }
 }
 
+@media (max-width: 380px) {
+    .brand-name {
+        font-size: 14pt;
+        top: 14px;
+        left: 40px;
+    }
+}
+
 .jumbotron {
     background-color: inherit;
     margin-bottom: 0px;
