@@ -27,6 +27,13 @@ hr {
     left: 70px;
 }
 
+@media (max-width: 480px) {
+    .brand-name {
+        font-size: 16pt;
+        top: 12px;
+    }
+}
+
 .jumbotron {
     background-color: inherit;
     margin-bottom: 0px;
