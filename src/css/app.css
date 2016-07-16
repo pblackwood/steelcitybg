@@ -23,21 +23,27 @@ hr {
     color: #f8f8f8;
     font-weight: normal;
     position: relative;
-    top: 10px;
+    top: 13px;
     left: 70px;
 }
 
-@media (max-width: 480px) {
+/*@media (max-width: 768px) {*/
+/*.brand-name {*/
+/*font-size: 18pt;*/
+/*top: 11px;*/
+/*}*/
+/*}*/
+
+@media (max-width: 768px) {
     .brand-name {
         font-size: 16pt;
-        top: 12px;
+        top: 14px;
     }
 }
 
 @media (max-width: 380px) {
     .brand-name {
         font-size: 14pt;
-        top: 14px;
         left: 40px;
     }
 }
@@ -90,6 +96,26 @@ hr {
     margin: 20px 10px;
 }
 
+.next h3 {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.next .link {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.carousel .item {
+    width: 100%;
+    /*max-height: 500px;*/
+    /*text-align: center;*/
+}
+
+.carousel h3 {
+    color: #fff;
+}
+
 .sidebar {
     background-color: #f5ebeb;
     border: 1px solid #bbb;
@@ -102,6 +128,12 @@ hr {
 .award {
     color: #bb0000;
     text-align: center;
+}
+
+.award-large {
+    color: #bb0000;
+    font-size: larger;
+    font-weight: bold;
 }
 
 .remember-this {

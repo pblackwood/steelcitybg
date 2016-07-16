@@ -56,43 +56,95 @@
 
 <div class="container">
     <div class="row announce">
-        <div class="col-md-5 col-md-offset-1">
-            <h2>Upcoming Events</h2>
+        <div class="col-sm-8 col-xs-12">
+            <h2>Our Next Event</h2>
             <hr/>
-            <h3>Tuesday, June 14th, 6:30pm</h3>
-            <h3>Caliente Means Hot Backgammon!</h3>
-            <p>Caliente Pizza and Draft House<br/>
-                329 Castle Shannon Blvd<br/>
-                Pittsburgh, PA 15234</p>
-            <p>This is our monthly South-ish event, in Mt Lebanon. We meet here on the <span class="remember-this">second Tuesday of every month</span>.
-            </p></p>
-            <p>Come try the newest pizza offering in Mt Lebanon and one of the best draft beer menus in Pittsburgh!</p>
-            <p>We have the entire upstairs meeting room reserved from 6:30 till close.</p>
+            <div class="row next">
+                <div class="col-md-8 col-md-offset-2 col-xs-12">
+                    <h3>Sunday, July 17th, 1pm</h3>
+                    <h3>Steel City Beer & Backgammon</h3>
+                </div>
+                <div class="col-md-6 col-md-offset-4 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                    <p>Sharp Edge Beer Emporium<br/>
+                        Friendship Ave (one block off of Baum Blvd)<br/>
+                        Pittsburgh, PA 15206</p>
+                    <p class="award-large">Attendance Awards at this event!</p>
+                    <p>We will be giving away a board and a bomber of beer! <a href="./stats.html">Check your stats</a>
+                        to see your chances. You must be present to win.
+                </div>
+                <div class="col-md-8 col-md-offset-2 col-xs-12">
+                    <p class="link">
+                        <a href="/schedule.html">Complete Schedule ...</a>
+                    </p>
+                </div>
+            </div>
             <hr/>
-            <h3>Sunday, June 19th, 1pm</h3>
-            <h3>Steel City Beer & Backgammon</h3>
-            <p>Sharp Edge Beer Emporium<br/>
-                302 S St Clair St (near Baum Blvd)<br/>
-                Pittsburgh, PA 15206</p>
-            <p>Join us for our monthly Sunday event! We meet here on the <span class="remember-this">third Sunday of every month</span>.
-            </p></p>
-            <p>All skill levels are welcome. Please bring a board if you have one, if you don't, come anyway! There
-                will be friendly games as well as a competitive tournament for those who want to play in one.</p>
-            <p>Announcements and tournament registration will begin at 1 with tournament matches beginning promptly at
-                1:30. Plan to arrive a little early if you want to grab a bite to eat before the tournament.</p>
-            <hr/>
-            <h3>Monday, July 4th</h3>
-            <h3>Biddle's Escape From the Ordinary</h3>
-            <p class="notice">Cancelled! This month only, due to Independence Day</p>
-            <p>We normally meet here on the <span
-                    class="remember-this">first Monday of every month</span>.</p>
-            <hr/>
-            <p>Dates and times are subject to change. Check the website before leaving home. We will try very hard not
-                to cancel or reschedule a recurring event, but stuff comes up, amiright?</p>
+
+            <!-- PHOTO CAROUSEL LEFT -->
+            <div id="carousel-home" class="carousel slide" data-ride="carousel" data-interval="8000">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-home" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-home" data-slide-to="1"></li>
+                    <li data-target="#carousel-home" data-slide-to="2"></li>
+                    <li data-target="#carousel-home" data-slide-to="3"></li>
+                    <li data-target="#carousel-home" data-slide-to="4"></li>
+                    <li data-target="#carousel-home" data-slide-to="5"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img class="carousel-img" src="assets/images/carousel/biddles-july-2015.png">
+                        <div class="carousel-caption">
+                            <h3>Biddle's Escape</h3>
+                            <p>Backgammon outside on a nice night!</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="carousel-img" src="assets/images/carousel/biddles-june.png">
+                        <div class="carousel-caption">
+                            <h3>Biddle's Escape</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="carousel-img" src="assets/images/carousel/caliente_july-2016.png">
+                        <div class="carousel-caption">
+                            <h3>Caliente Pizza & Backgammon</h3>
+                            <p>That is a Greek backgammon board in the foreground.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="carousel-img" src="assets/images/carousel/img_1907.jpg">
+                    </div>
+                    <div class="item">
+                        <img class="carousel-img" src="assets/images/carousel/img_1908.jpg">
+                    </div>
+                    <div class="item">
+                        <img class="carousel-img" src="assets/images/carousel/first-meetup-020815.png">
+                        <div class="carousel-caption">
+                            <h3>Our First-Ever Meetup!</h3>
+                            <p>Sharp Edge downtown. A cold evening. Three dedicated players.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-home" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <!--<span class="icon-prev" aria-hidden="true"></span>-->
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-home" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <!--<span class="icon-next" aria-hidden="true"></span>-->
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
         </div>
 
         <!-- SIDEBAR RIGHT -->
-        <div class="col-md-4 col-md-offset-2 sidebar">
+        <div class="col-sm-4 col-xs-12 sidebar">
             <h2>Regular Features</h2>
             <hr/>
             <h3>Attendance Awards</h3>
@@ -106,6 +158,9 @@
                 events you attend, the better your chances to win a prize!
             <p>
                 You must be present to win. We will announce each awards event several times to get the word out.
+            </p>
+            <p>
+                Next award drawing: July 17th monthly tournament.
             </p>
             <hr/>
             <h3>Awards for Q1, 2016</h3>
