@@ -116,6 +116,10 @@ hr {
     color: #fff;
 }
 
+.carousel-caption h3 {
+    width: 100%;
+}
+
 .sidebar {
     background-color: #f5ebeb;
     border: 1px solid #bbb;
