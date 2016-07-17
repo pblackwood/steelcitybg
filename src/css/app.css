@@ -106,6 +106,15 @@ hr {
     margin-bottom: 0px;
 }
 
+.stand-alone-link {
+    padding: 0px;
+    text-align: center;
+}
+
+.carousel {
+    margin-top: 20px;
+}
+
 .carousel .item {
     width: 100%;
     /*max-height: 500px;*/
@@ -116,8 +125,9 @@ hr {
     color: #fff;
 }
 
-.carousel-caption h3 {
-    width: 100%;
+.carousel-caption {
+    left: 10%;
+    right: 10%;
 }
 
 .sidebar {
