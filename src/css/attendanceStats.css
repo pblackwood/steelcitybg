@@ -32,9 +32,9 @@
 
 /* Add extra padding on left except on small devices */
 @media (min-width: 500px) {
-    .playerTable {
-        margin-left: 150px;
-    }
+    /*.playerTable {*/
+    /*margin-left: 150px;*/
+    /*}*/
 }
 
 /* Center horizontally, only on small devices */
