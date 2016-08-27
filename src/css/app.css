@@ -27,13 +27,6 @@ hr {
     left: 70px;
 }
 
-/*@media (max-width: 768px) {*/
-/*.brand-name {*/
-/*font-size: 18pt;*/
-/*top: 11px;*/
-/*}*/
-/*}*/
-
 @media (max-width: 768px) {
     .brand-name {
         font-size: 16pt;
