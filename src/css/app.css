@@ -97,6 +97,20 @@ hr {
     margin: 20px 10px;
 }
 
+.announce-date {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.announce-recurring {
+    float: right;
+    color: #dc9512;
+    font-size: small;
+    font-style: italic;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+
 .next h3 {
     margin-top: 0px;
     text-align: center;
