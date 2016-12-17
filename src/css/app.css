@@ -194,8 +194,65 @@ a.menu-selected {
     display: none;
 }
 
-.schedule, .stats, .about {
+.schedule, .stats, .about, .membership {
     margin-top: 50px;
+}
+
+.highlight {
+    font-weight: bold;
+    font-size: large;
+}
+
+.participant {
+    font-weight: bold;
+    font-size: large;
+    margin-right: 10px;
+}
+
+.participation li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.participation li li {
+    list-style-type: circle;
+}
+
+.memberships {
+    padding: 35px;
+}
+
+.memberships h2, .memberships h3 {
+    text-align: center;
+}
+
+.memberships ul {
+    margin-top: 40px;
+}
+
+.memberships ul li {
+    padding-top: 10px;
+}
+
+.memberships .contributing, .memberships .sustaining, .memberships .lifetime {
+    border: 1px solid #cfcfcf;
+    min-height: 400px;
+}
+
+.memberships .contributing {
+    background-color: azure;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.memberships .sustaining {
+    background-color: #cffbe2;
+}
+
+.memberships .lifetime {
+    background-color: #fffac9;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
 }
 
 .stats h2, .stats h3 {
