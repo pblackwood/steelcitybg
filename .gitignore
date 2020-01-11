@@ -7,7 +7,6 @@
 *.iml
 out
 gen
-.gitignore
 package.json
 doc/
 *.pxm
