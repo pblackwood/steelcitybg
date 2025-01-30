@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Peter Swartwout"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Steel City Backgammon</title>
+    <link rel="shortcut icon" href="assets/images/red_die_favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+          integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <!-- Site-wide styles -->
+    <link href="css/app.css" rel="stylesheet">
+    <!-- Custom styles for this page -->
+    <link href="css/attendanceStats.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+                <img class="brand-icon" src="assets/images/two-red-dice-logo.png"/>
+            </a>
+            <h3 class="brand-name">Steel City Backgammon</h3>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/">Home</a></li>
+                <!--<li><a href="/schedule.html">Schedule</a></li>-->
+                <!--<li><a href="#">Stats</a></li>-->
+                <!--<li><a href="/about.html">About</a></li>-->
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container -->
+</nav>
+
+<div class="container stats">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <h1>Player Statistics</h1>
+            <hr/>
+            <p>Here you can track your performance in the monthly tournaments. At the end of the year we'll have a party
+                and award the top player with the Player of the Year trophy. There might be some backgammon involved,
+                too!
+        </div>
+        <iframe id="monthlyStats"
+                title="Steel City Monthly Stats"
+                width="750px"
+                height="750px"
+                src="http://www.backgames.org/bg/club.standings.php?club_id=127">
+        </iframe>
+        <!--<div id="attendanceStats" class="col-xs-12"/>-->
+    </div>
+
+    <footer class="footer col-xs-10 col-xs-offset-1">
+        <hr/>
+        <p class="copyright">&copy; 2020 Steel City Backgammon</p>
+    </footer>
+</div> <!-- /container -->
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+<!-- React javascript to support the attendance stats -->
+<script src="js/app.entry.js"></script>
+
+</body>
+</html>
