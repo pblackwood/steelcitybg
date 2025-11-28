@@ -7,8 +7,9 @@
 *.iml
 out
 gen
-.gitignore
 package.json
 doc/
 *.pxm
 
+# OS-specific files
+.DS_Store

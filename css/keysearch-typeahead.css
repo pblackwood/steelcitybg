@@ -1,0 +1,29 @@
+.typeahead-input {
+    margin-bottom: 0px;
+    min-width: 500px;
+}
+
+.typeahead-results {
+    background-color: #f8f8f8;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-height: 300px;
+    overflow: auto;
+}
+
+.typeahead-listitem {
+    list-style: none;
+    padding: 2px 10px;
+}
+
+.typeahead-listitem .typeahead-listanchor {
+    text-decoration: none;
+    padding: 2px 10px;
+}
+
+.typeahead-hover, .typeahead-listitem:hover {
+    background-color: #99c8d8;
+    text-decoration: none;
+    padding: 2px 10px;
+}
+

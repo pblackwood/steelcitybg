@@ -7,6 +7,10 @@ hr {
     border-top: 1px solid #ccc;
 }
 
+/*.container {*/
+/*background-color: #f8f8f8;*/
+/*}*/
+
 .row {
     font-size: medium;
     /*background-color: #f8f8f8;*/
@@ -25,6 +29,10 @@ hr {
     position: relative;
     top: 13px;
     left: 70px;
+}
+
+.strike {
+    text-decoration: line-through;
 }
 
 @media (max-width: 768px) {
@@ -47,7 +55,7 @@ hr {
     padding-bottom: 0px;
 }
 
-.jumbotron h1, .jumbotron p {
+.jumbotron h1, .jumbotron h4, .jumbotron p {
     text-align: center;
     vertical-align: middle;
 }
@@ -55,6 +63,22 @@ hr {
 .jumbotron a {
     margin-top: 15px;
     margin-bottom: 20px;
+}
+
+.flyer {
+    text-align: center;
+    width: 90%;
+    margin: 5%;
+    border: solid 1px #dbb;
+}
+
+.subpage {
+    margin-top: 50px;
+}
+
+.calendar, .stats {
+    margin-top: 10px;
+    height: 800px;
 }
 
 .copyright {
@@ -72,6 +96,15 @@ hr {
 .title {
     color: #bb0000;
     margin-bottom: 20px;
+}
+
+.subtitle {
+    margin-bottom: 20px;
+}
+
+#monthlyStats {
+    display: block;
+    margin: 0 auto;
 }
 
 .space-above-sm {
@@ -225,7 +258,7 @@ a.menu-selected {
     display: none;
 }
 
-.schedule, .stats, .about, .membership {
+.schedule, .about, .membership {
     margin-top: 50px;
 }
 

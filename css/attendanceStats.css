@@ -1,0 +1,38 @@
+.header h1, .header h3 {
+    text-align: center
+}
+
+.attendance ul li {
+    list-style: none;
+}
+
+.attendance .events, .attendance h4 {
+    text-align: center;
+}
+
+.header select {
+    margin-left: 10px;
+}
+
+.header .stats-year {
+    text-align: right;
+}
+
+.winner {
+    font-weight: bold;
+    color: #884444;
+}
+
+.playerTable {
+    height: 400px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+/* Center horizontally, only on small devices */
+@media (max-width: 800px) {
+    .header .stats-year, .header .stats-quarter {
+        text-align: center;
+    }
+}
+

@@ -1,0 +1,33 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.container {
+    width: 60%;
+}
+
+.jumbotron h1, .jumbotron p {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.jumbotron a {
+    margin-top: 35px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.congrats {
+    font-size: large;
+    border: 2px solid #cdcddd;
+    padding: 30px;
+}
+
+.brand {
+    width: 100px;
+}
+
