@@ -55,7 +55,7 @@ hr {
     padding-bottom: 0px;
 }
 
-.jumbotron h1, .jumbotron p {
+.jumbotron h1, .jumbotron h4, .jumbotron p {
     text-align: center;
     vertical-align: middle;
 }
@@ -95,6 +95,10 @@ hr {
 
 .title {
     color: #bb0000;
+    margin-bottom: 20px;
+}
+
+.subtitle {
     margin-bottom: 20px;
 }
 
